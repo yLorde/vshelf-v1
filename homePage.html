@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-Shelf</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/background.css">
+    <script src="scripts/onHtmlLoad.js"></script>
+
+    <style>
+        body {
+            background-color: #121212;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body onload="onHtmlLoad()" class="bg-gray-800">
+    <main>
+        <div class="flex items-center justify-center">
+            <div class="flex gap-2 p-2">
+
+                <div>
+                    <a href="html/minhaLista.html">
+                        <!-- <input class="peer sr-only" value="male" name="gender" id="male" type="radio" /> -->
+                        <div
+                            class="flex h-16 w-32 cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-gray-300 bg-gray-50 p-1 transition-transform duration-150 hover:border-blue-400 active:scale-95 peer-checked:border-blue-500 peer-checked:shadow-md peer-checked:shadow-blue-400">
+                            <label
+                                class="flex cursor-pointer items-center justify-center text-sm uppercase text-gray-500 peer-checked:text-blue-500"
+                                for="male">
+                                Minha Lista
+                            </label>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="html/addFilme.html">
+                        <!-- <input class="peer sr-only" value="male" name="gender" id="male" type="radio" /> -->
+                        <div
+                            class="flex h-16 w-32 cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-gray-300 bg-gray-50 p-1 transition-transform duration-150 hover:border-blue-400 active:scale-95 peer-checked:border-blue-500 peer-checked:shadow-md peer-checked:shadow-blue-400">
+                            <label
+                                class="flex cursor-pointer items-center justify-center text-sm uppercase text-gray-500 peer-checked:text-blue-500"
+                                for="male">
+                                Adicionar filme
+                            </label>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="html/filmesOffline.html">
+                        <!-- <input class="peer sr-only" value="female" name="gender" id="female" type="radio" /> -->
+                        <div
+                            class="flex h-16 w-32 cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-gray-300 bg-gray-50 p-1 transition-transform duration-150 hover:border-blue-400 active:scale-95 peer-checked:border-blue-500 peer-checked:shadow-md peer-checked:shadow-blue-400">
+                            <label
+                                class="flex cursor-pointer items-center justify-center text-sm uppercase text-gray-500 peer-checked:text-blue-500"
+                                for="female">
+                                Filmes Offline
+                            </label>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="html/compartilharLista.html">
+                        <!-- <input class="peer sr-only" value="other" name="gender" id="other" type="radio" /> -->
+                        <div
+                            class="flex h-16 w-32 cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-gray-300 bg-gray-50 p-1 transition-transform duration-150 hover:border-blue-400 active:scale-95 peer-checked:border-blue-500 peer-checked:shadow-md peer-checked:shadow-blue-400">
+                            <label
+                                class="flex cursor-pointer items-center justify-center text-sm uppercase text-gray-500 peer-checked:text-blue-500"
+                                for="other">
+                                Compartilhar
+                            </label>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="html/definicoes.html">
+                        <!-- <input class="peer sr-only" value="other" name="gender" id="other" type="radio" /> -->
+                        <div
+                            class="flex h-16 w-32 cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-gray-300 bg-gray-50 p-1 transition-transform duration-150 hover:border-blue-400 active:scale-95 peer-checked:border-blue-500 peer-checked:shadow-md peer-checked:shadow-blue-400">
+                            <label
+                                class="flex cursor-pointer items-center justify-center text-sm uppercase text-gray-500 peer-checked:text-blue-500"
+                                for="other">
+                                Definições
+                            </label>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

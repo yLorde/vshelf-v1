@@ -1,0 +1,22 @@
+{
+  "name": "v-shelf",
+  "productName": "V-Shelf",
+  "version": "1.0.0",
+  "description": "virtual shelf",
+  "author": "ylorde (discord)",
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packge": "build"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "build": {
+    "appId": "com.TechNext.VShelf"
+  }
+}
